@@ -24,7 +24,7 @@ const miIterable = miGenerador()
 //     console.log(id)
 // }
 
-from( miIterable).subscribe(observer)
+from( miIterable ).subscribe( observer )
 
 // const source$ = from([1,2,3,4,5])
 // const source$ = of(...[1,2,3,4,5])
